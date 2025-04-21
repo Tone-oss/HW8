@@ -95,7 +95,8 @@ int main(){
     int** multResult = functions.multi(scaleResult, rowsB, colsB, transResult, colsC, rowsC);
     int** addResult = functions.add(matrixA, multResult, rowsA, colsA);//should be the final result
 
-    //output reslut
+    //output result
+    cout << "Final Result:\n";
     printMatrix(addResult, rowsA, colsA);
     
 
